@@ -1,0 +1,17 @@
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\hw4.exe
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\hw4.deps.json
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\hw4.runtimeconfig.json
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\hw4.dll
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\hw4.pdb
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.AssemblyInfoInputs.cache
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.AssemblyInfo.cs
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.csproj.CoreCompileInputs.cache
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.dll
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\refint\hw4.dll
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.pdb
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.genruntimeconfig.cache
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\ref\hw4.dll
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.csproj.AssemblyReference.cache
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+D:\Pin\STUDY\0CU\ปี3\OS\hw4\obj\Debug\net9.0\hw4.csproj.Up2Date

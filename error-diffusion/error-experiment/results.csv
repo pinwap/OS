@@ -1,0 +1,14 @@
+Threads,Time_ms,Speedup,Type
+1,699,1.00,Sequential
+1,981,0.71,Parallel_Overhead
+2,691,1.01,Parallel
+3,524,1.33,Parallel
+4,491,1.42,Parallel
+5,501,1.40,Parallel
+6,428,1.63,Parallel
+7,440,1.59,Parallel
+8,409,1.71,Parallel
+9,423,1.65,Parallel
+10,464,1.51,Parallel
+11,717,0.97,Parallel
+12,698,1.00,Parallel
