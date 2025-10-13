@@ -11,6 +11,7 @@ public class ReadersWritersSolution
   private static readonly SemaphoreSlim _resourceLock = new SemaphoreSlim(1, 1);
   private static readonly SemaphoreSlim _readerCountLock = new SemaphoreSlim(1, 1);
   private static int _readerCount = 0;
+  private static int _order = 0;
 
   private const int NumReaders = 990;
   private const int NumWriters = 10;
@@ -68,7 +69,8 @@ public class ReadersWritersSolution
     try
     {
       _sharedResourceX++;
-      Console.WriteLine($"Writer no = {id,-4} x = {_sharedResourceX}");
+      int order = Interlocked.Increment(ref _order);
+      Console.WriteLine($"Writer no = {order,-4} x = {_sharedResourceX}");
       SimulateWork(1);
     }
     finally
@@ -97,8 +99,10 @@ public class ReadersWritersSolution
       {
         _readerCountLock.Release();
       }
+      int order = Interlocked.Increment(ref _order);
 
-      Console.WriteLine($"Reader no = {id,-4} x = {_sharedResourceX}");
+      Console.WriteLine($"-> Reader no = {order,-4} x = {_sharedResourceX}");
+
       SimulateWork(1);
 
       _readerCountLock.Wait();
